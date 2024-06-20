@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import fs from "fs";
 
 function renamePackageJsonName(targetDir, projectName) {
