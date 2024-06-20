@@ -18,7 +18,7 @@ const targetDir = process.argv[2];
 const projectName = targetDir.split("/").pop();
 
 fs.mkdirSync(targetDir, { recursive: true });
-fs.cpSync(`${__dirname}/../template`, targetDir, { recursive: true, errorOnExist: true });
+fs.cpSync(`${__dirname}/template`, targetDir, { recursive: true, errorOnExist: true });
 renamePackageJsonName(targetDir, projectName);
 console.log(`Finished generating your project ${projectName}`);
 console.log(`cd ${projectName}`);
