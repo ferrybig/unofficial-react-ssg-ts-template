@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import fs from "fs";
+const __dirname = import.meta.dirname;
 
 function renamePackageJsonName(targetDir, projectName) {
 	const packageJsonPath = `${targetDir}/package.json`;
