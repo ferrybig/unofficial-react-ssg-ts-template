@@ -1,10 +1,13 @@
 {
   "name": "create-unofficial-vite-react-ts-sgg",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "",
   "author": "ferrybig",
   "license": "MIT",
-  "repository": "github:ferrybig/unofficial-react-ssg-ts-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferrybig/unofficial-react-ssg-ts-template.git"
+  },
   "bin": {
     "create-template": "main.js"
   }
