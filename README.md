@@ -5,5 +5,5 @@ This is a demo of a static site generator using React and TypeScript. It uses th
 ## Usage
 
 ```sh
-npm create unofficial-react-ssg-ts-template.git folder-name
+npm create unofficial-vite-react-ts-sgg folder-name
 ```
